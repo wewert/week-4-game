@@ -1,12 +1,16 @@
 body {
-  font-family: Helvetica;
-  background: red;
+  font-family: fantasy;
+  background: linear-gradient(black, white);
   width: 1400px;
-  height: 900px;
+  height: 1000px;
+}
+
+.header {
+  text-align: center;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 80px;
   color: yellow;
   padding: 10px;
   margin-top: 20px;
@@ -16,16 +20,23 @@ h2 {
   font-size: 30px;
   color: green;
   padding: 20px;
+  line-height: 1.5;
 }
 
 h3 {
-  font-size: 20px;
-  color: purple;
+  font-size: 40px;
+  color: olive;
   padding: 20px;
 }
 
-#win {
+#randnum {
+  font-size: 50px;
+  color: red;
+}
 
+#count {
+  font-size 40px;
+  color: red;
 }
 
 .images {
