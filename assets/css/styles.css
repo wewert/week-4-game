@@ -19,14 +19,13 @@ h1 {
 h2 {
   font-size: 30px;
   color: green;
-  padding: 20px;
   line-height: 1.5;
 }
 
 h3 {
   font-size: 40px;
   color: olive;
-  padding: 20px;
+  padding: 10px;
 }
 
 #randnum {
