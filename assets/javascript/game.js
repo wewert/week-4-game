@@ -25,28 +25,28 @@ $(document).ready(function() {
     $("#count").text(total);
   }
 
-  function win() {
-    alert("Winner, winner, chicken dinner");
+  function winning() {
     win++;
-    $("#win").text(win);
+    $("#winnings").text(win);
     reset();
   }
 
-  function lose() {
-    alert("Loser never get a meal");
+  function losing() {
     lose++;
-    $("#lose").text(lose);
+    $("#losings").text(lose);
     reset();
+
+    console.log(lose);
   }
 
   $("#one").on ("click", function(){
     total = total + diceOne;
     $("#count").text(total);
         if (total == number){
-          win();
+          winning();
         }
         else if ( total > number){
-          lose();
+          losing();
         }
   })
 
@@ -54,10 +54,10 @@ $(document).ready(function() {
     total = total + diceTwo;
     $("#count").text(total);
         if (total == number){
-          win();
+          winning();
         }
         else if ( total > number){
-          lose();
+          losing();
         }
   })
 
@@ -65,10 +65,10 @@ $(document).ready(function() {
     total = total + diceThree;
     $("#count").text(total);
         if (total == number){
-          win();
+          winning();
         }
         else if ( total > number){
-          lose();
+          losing();
         }
   })
 
@@ -76,10 +76,10 @@ $(document).ready(function() {
     total = total + diceFour;
     $("#count").text(total);
         if (total == number){
-          win();
+          winning();
         }
         else if ( total > number){
-          lose();
+          losing();
         }
   });
 });
