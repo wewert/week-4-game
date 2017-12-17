@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica;
+  background: red;
+  width: 1400px;
+  height: 900px;
+}
+
+h1 {
+  font-size: 40px;
+  color: yellow;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: green;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: purple;
+  padding: 20px;
+}
+
+#win {
+
+}
+
+.images {
+  display: block;
+  float: left;
+  margin: 90px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+}

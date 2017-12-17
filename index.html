@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Game With Them Crystals</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Matchy-Matchy Number Game</h1>
+  </div>
+
+  <div class="instructions">
+    <h2>The point of this game is to click on the images to figure out the number it holds and to add it up to match the randomly generated number to win.</h2>
+  </div>
+
+  <div class="startingGame">
+    <h2>This is the number you have to match:
+      <span id="randnum"></span>
+    </h2>
+  </div>
+
+  <div class="winAndLose">
+    <h3>Your Win Count:
+      <span id="winnings"></span>
+    </br>
+      Your Lose Count:
+      <span id="losings"></span>
+    </h3>
+  </div>
+
+  <div class="images">
+    <img src="assets/images/one.jpg" class=image1 id="one" alt="First Dice">
+    <img src="assets/images/two.jpg" class=image2 id="two" alt="Second Dice">
+    <img src="assets/images/three.jpg" class=image3 id="three" alt="Third Dice">
+    <img src="assets/images/four.jpg" class=image4 id="four" alt="Forth Dice">
+  </div>
+
+  <div class="Total">
+    <h2>Your count is:
+      <span id="count"></span>
+    </h2>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
