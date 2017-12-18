@@ -2,10 +2,8 @@ $(document).ready(function() {
   var number = Math.floor(Math.random()*101+19)
   $("#randnum").text(number);
 
-  var diceOne = Math.floor(Math.random()*11+1)
-  var diceTwo = Math.floor(Math.random()*11+1)
-  var diceThree = Math.floor(Math.random()*11+1)
-  var diceFour = Math.floor(Math.random()*11+1)
+var diceOne, diceTwo, diceThree, diceFour;
+diceOne = diceTwo = diceThree = diceFour = Math.floor(Math.random()*11+1)
 
   var total = 0;
   var win = 0;
@@ -35,8 +33,6 @@ $(document).ready(function() {
     lose++;
     $("#losings").text(lose);
     reset();
-
-    console.log(lose);
   }
 
   $("#one").on ("click", function(){
