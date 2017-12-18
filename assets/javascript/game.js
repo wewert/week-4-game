@@ -1,9 +1,10 @@
 $(document).ready(function() {
+
   var number = Math.floor(Math.random()*101+19)
   $("#randnum").text(number);
 
-var diceOne, diceTwo, diceThree, diceFour;
-diceOne = diceTwo = diceThree = diceFour = Math.floor(Math.random()*11+1)
+  var diceOne, diceTwo, diceThree, diceFour;
+  diceOne = diceTwo = diceThree = diceFour = Math.floor(Math.random()*11+1)
 
   var total = 0;
   var win = 0;
